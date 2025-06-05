@@ -1,0 +1,33 @@
+.absa-financing-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .financing-option {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .absa-apply-button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #0072c6;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .absa-apply-button:hover {
+    background-color: #005fa3;
+  }
+  
+  .external-link-icon {
+    margin-left: 8px;
+  }
+  

@@ -1,0 +1,164 @@
+.about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./bg23.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  
+  .about-section {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+    align-items: center;
+  }
+  
+  .about-content {
+    flex: 1;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .about-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .about-image {
+    flex: 1;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services-section {
+    margin-bottom: 60px;
+  }
+  
+  .services-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #2c3e50;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+  }
+  
+  .service-card {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-card h3 {
+    color: #e74c3c;
+    margin-bottom: 15px;
+  }
+  
+  .partners-section {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .partners-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+  }
+  
+  .partners-subtitle {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #7f8c8d;
+  }
+  
+  .partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .partner-card {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .partner-logo {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .mission-section {
+    background: #f1f1f1;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .mission-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .mission-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .about-section {
+      flex-direction: column;
+    }
+    
+    .hero-section {
+      padding: 60px 20px;
+    }
+    
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  }
