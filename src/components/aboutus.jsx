@@ -60,7 +60,7 @@ const AboutUs = () => {
           <div className="service-card">
             <h3>Sell Your car With us</h3>
             <p>
-              Simply click on the add product and choose if it is premium or normal. On the description, you write your phone number if you want to sell.
+              Simply click on the add product and choose if it is premium or normal. On the description, you write your phone number if you want to sell the product.
               <Link to="/ProductForm" className="btn btn-secondary">Sell With Us</Link>
             </p>
           </div>
