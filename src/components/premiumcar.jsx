@@ -36,7 +36,7 @@ const ProductsAvailable = () => {
   return (
     <div className="products-container">
       <ProductSearch products={allProducts} onSearch={handleSearch} />
-      <h2 className="section-title">Premium Cars</h2>
+      <h2 className="section-title">Premium imported Cars</h2>
       <div className="products-grid">
         {displayedProducts.length > 0 ? (
           displayedProducts.map((product) => (
